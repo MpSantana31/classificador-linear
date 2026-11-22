@@ -372,13 +372,14 @@ dados, e não garante a maior folga (margem) entre as classes.
 ## Documentação teórica
 
 A pasta `docs/` tem anotações curtas, em linguagem simples, com a matemática do
-trabalho. Servem de base para a parte teórica do relatório:
+trabalho, que serviram de base para a construção do relatório:
 
 - [01 — Produto interno e hiperplano](docs/01-produto-interno-e-hiperplano.md)
 - [02 — Mínimos quadrados](docs/02-minimos-quadrados.md)
 - [03 — Classificação e métricas](docs/03-classificacao-e-metricas.md)
 - [04 — Perceptron e normalização](docs/04-perceptron-e-normalizacao.md)
 - [05 — Exemplo numérico completo](docs/05-exemplo-numerico-completo.md)
+- [Classificador Linear Relatório](docs/Classificador-Linear-Relatorio.pdf)
 
 ## Estrutura do repositório
 
@@ -394,12 +395,13 @@ classificador/
   grafico.py                    pontos, reta, regiões, histograma, matriz e curva
 tests/                        testes da lógica central (unittest)
   test_core.py
-docs/                         anotações teóricas para o relatório
+docs/                         anotações teóricas e relatório formal do trabalho
   01-produto-interno-e-hiperplano.md
   02-minimos-quadrados.md
   03-classificacao-e-metricas.md
   04-perceptron-e-normalizacao.md
   05-exemplo-numerico-completo.md
+  Classificador-Linear-Relatorio.pdf
 dados/                        gerado por main.py; ignorado pelo git
   banknote.csv
   wdbc.csv
